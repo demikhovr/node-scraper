@@ -1,0 +1,29 @@
+{
+  "author": "demikhovr",
+  "name": "node-scraper",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "scripts": {
+    "lint": "eslint app/index.js",
+    "start": "node app/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "3.1.0",
+    "cheerio": "1.0.0-rc.3",
+    "cllc": "1.1.2",
+    "csv-writer": "1.5.0",
+    "fs": "0.0.1-security",
+    "iconv-lite": "0.5.0",
+    "querystring": "0.2.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.4",
+    "socks-proxy-agent": "4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
